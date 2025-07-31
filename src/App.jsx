@@ -34,7 +34,7 @@ function App() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('https://f352f88c26e4.ngrok-free.app/api/generate/', {
+      const response = await fetch('https://da1cf336266d.ngrok-free.app/api/generate/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
